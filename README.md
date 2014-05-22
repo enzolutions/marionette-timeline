@@ -5,7 +5,7 @@ Implementation of a Timeline enabled to end user change the Date Range of Timeli
 
 This example use the project <a target="_blank" href="http://enzolutions.com/projects/silex_rss_importer_image" _target="_blank" >http://enzolutions.com/projects/silex_rss_importer_image</a> as Rest Server.
 
-The data develired by Rest Server is list of Time Magazine Close Up images imported from <a href="_blank" href="http://lightbox.time.com/category/closeup/feed/">http://lightbox.time.com/category/closeup/feed/</a> you can check the data at <a target_"_blank" href="http://silex.7sabores.com/timeline/index.php/rest/covers">http://silex.7sabores.com/timeline/index.php/rest/covers</a>.
+The data develired by Rest Server is list of Time Magazine Close Up images imported from <a target="_blank" href="http://lightbox.time.com/category/closeup/feed/">http://lightbox.time.com/category/closeup/feed/</a> you can check the data at <a target="_blank" href="http://silex.7sabores.com/timeline/index.php/rest/covers">http://silex.7sabores.com/timeline/index.php/rest/covers</a>.
 
 Inside you can find how bind jQuery events with BackboneJS Routes.
 
@@ -27,7 +27,7 @@ You just need to play with Date Range select to get less or more results as you 
 
 #### Installing Rest Server
 
-You must follow the instructions to install Rest Server <a target="_blank" href="http://enzolutions.com/projects/silex_rss_importer_image" taget="_blank" >enzolutions.com</a> or you can implement your own Server to delivery diferent data.
+You must follow the instructions to install Rest Server <a target="_blank" href="http://enzolutions.com/projects/silex_rss_importer_image">http://enzolutions.com/projects/silex_rss_importer_image</a> or you can implement your own Server to delivery diferent data.
 
 
 #### Configuring Collections
@@ -54,3 +54,4 @@ define(["marionette",
 });
 
 ````
+
