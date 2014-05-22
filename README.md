@@ -3,7 +3,7 @@ Marionette Timeline
 
 Implementation of a Timeline enabled to end user change the Date Range of Timeline to get differnt results via Ajax.
 
-This example use the project <a target="_blank" href="http://enzolutions.com/projects/silex_rss_importer_image" taget="_blank" >enzolutions.com</a> as Rest Server.
+This example use the project <a target="_blank" href="http://enzolutions.com/projects/silex_rss_importer_image" _target="_blank" >http://enzolutions.com/projects/silex_rss_importer_image</a> as Rest Server.
 
 The data develired by Rest Server is list of Time Magazine Close Up images imported from <a href="_blank" href="http://lightbox.time.com/category/closeup/feed/">http://lightbox.time.com/category/closeup/feed/</a> you can check the data at <a target_"_blank" href="http://silex.7sabores.com/timeline/index.php/rest/covers">http://silex.7sabores.com/timeline/index.php/rest/covers</a>.
 
@@ -45,7 +45,7 @@ define(["marionette",
           this.max = options.max;
        },
        url: function() {
-         return 'http://silex.7sabores.com/timeline/index.php/rest/covers' + this.min + '/' + this.max;
+         return 'http://silex.7sabores.com/timeline/rest/covers/' + this.min + '/' + this.max;
        },
     });
 
